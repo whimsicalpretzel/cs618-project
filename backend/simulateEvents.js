@@ -12,9 +12,9 @@ import { trackEvent } from './src/services/events.js'
 
 const simulationStart = Date.now() - 1000 * 60 * 60 * 24 * 30
 const simulationEnd = Date.now()
-const simulatedUsers = 5
-const simulatedPosts = 10
-const simulatedViews = 10000
+const simulatedUsers = 8
+const simulatedPosts = 8
+const simulatedViews = 12500
 
 async function simulateEvents() {
   const connection = await initDatabase()
